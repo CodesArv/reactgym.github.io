@@ -1,0 +1,464 @@
+.out {
+  color: white;
+  font-size: 22px;
+  font-style: italic;
+  text-transform: capitalize !important;
+}
+
+.gym {
+  color: goldenrod;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.custome-navul {
+  font-size: 22px;
+  padding-right: 50px !important;
+}
+
+.nav-bg {
+  background-color: rgb(6, 6, 29);
+}
+
+.col-ul {
+  color: white !important;
+  padding-right: 40px !important;
+  padding-left: 40px !important;
+  font-size: 22px;
+  text-transform: capitalize;
+  transition: 0.7s;
+  font-weight: bolder;
+}
+
+.col-ul:nth-child(odd) {
+  color: goldenrod !important;
+  font-size: 25px !important;
+  font-weight: bolder;
+}
+
+.navbar-toggler {
+  background-color: goldenrod;
+}
+
+.col-ul:hover {
+  background-color: aliceblue !important;
+  color: black !important;
+
+}
+
+.col-ul:nth-child(odd):hover {
+  background-color: rgb(188, 152, 60) !important;
+  color: wheat !important;
+
+}
+
+.section2-img {
+  height: 490px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 20px !important;
+  width: 20px !important;
+  border-radius: 100%;
+
+}
+
+.carousel-indicators [data-bs-target]:first-child {
+  background-color: goldenrod !important;
+}
+
+.carousel-indicators [data-bs-target]:last-child {
+  background-color: goldenrod !important;
+}
+
+.carousel-control-prev-icon {
+  display: none;
+}
+
+.carousel-control-next-icon {
+  display: none;
+}
+
+/* 
+.imgborder {
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+} */
+
+.Container {
+  width: 100% !important;
+
+}
+
+.heading4 {
+  font-size: 25px;
+  color: rgb(229, 172, 28);
+  background-color: rgb(6, 6, 29);
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.img-row {
+  background-image: url(./asset/cssrowimg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.font {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  background-color: white;
+  opacity: 0.5;
+  padding: 20px;
+
+}
+
+.bg {
+  background-image: url(./asset/imgglass.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.btn {
+  background-color: none;
+  border: 2px solid greenyellow;
+  padding: 10px 40px;
+  color: white;
+  font-size: 22px;
+  border-radius: 10px;
+
+}
+
+.btn1 {
+  display: grid;
+  place-items: center;
+}
+
+.btn:hover {
+  background-color: greenyellow;
+}
+
+.section5-img {
+  height: 380px;
+  width: 100%;
+  padding: 10px;
+  transition: 0.9s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(10, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.section5-img1 {
+  height: 400px;
+  width: 100%;
+  padding: 5px 7px;
+  transition: 0.9s;
+  box-shadow: 5px 4px 32px 15px rgba(0, 0, 0, 0.75);
+}
+
+.section5-img1:hover {
+  padding: 10px 30px;
+}
+
+.section5-img:hover {
+  padding: 20px 30px;
+
+}
+
+.section5-img3 {
+  height: 400px;
+  width: 100%;
+  transition: 0.9s;
+  box-shadow: 5px 4px 32px 15px rgba(0, 0, 0, 0.75);
+  padding: 3px 7px;
+}
+
+.section5-img3:hover {
+  padding: 20px 30px;
+
+}
+
+.tour {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  background-color: rgb(6, 6, 29);
+  color: rgb(229, 172, 28);
+  letter-spacing: 1px;
+}
+
+.trainer {
+  color: purple;
+  font-size: 80px;
+  text-transform: capitalize;
+}
+
+.hspan {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  text-transform: capitalize;
+}
+
+.trainerimg {
+  border-radius: 100%;
+  height: 300px;
+  box-shadow: 0px 1px 24px 8px rgb(150, 24, 127);
+  width: 300px;
+  border: 2px solid rgb(163, 16, 136);
+}
+
+
+.trainerimg2 {
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 1px 24px 8px rgb(130, 1, 117);
+  border: 2px solid purple;
+
+}
+
+.rowbg-last {
+  background-image: url(./asset/imgglass.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.btn-choose button {
+  padding: 5px 30px;
+  border: 3px solid purple;
+  border-radius: 10px;
+  font-size: 20px;
+  background: none;
+  color: white;
+  transition: 0.8s;
+}
+
+.btn-choose :hover {
+  background-color: rgb(107, 14, 107);
+}
+
+.buli-img {
+  height: 350px;
+  width: 90%;
+  border-radius: 20px;
+
+}
+
+.shadow {
+  box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.75);
+  padding: 5px 30px;
+}
+
+.bodyhead {
+  font-size: 60px;
+  text-transform: capitalize;
+}
+
+.span2 {
+  font-size: 80px;
+  color: rgb(128, 18, 128);
+}
+
+
+.bg-color {
+  background-color: rgb(5, 5, 5);
+}
+
+.heading5 {
+  color: white;
+  font-size: 0px;
+  text-transform: capitalize;
+}
+
+.look {
+  color: purple;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.h5 {
+  color: goldenrod;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+.topheading {
+  position: absolute;
+  left: 50px;
+  top: 90px;
+}
+
+.shape {
+
+  background-color: rgb(17, 17, 17);
+  padding: 40px;
+  transition: 0.9s;
+  opacity: 0.6;
+}
+
+.shape2 {
+  font-size: 80px;
+  color: goldenrod;
+  text-transform: capitalize;
+  transition: 0.9s;
+
+}
+
+.text1 {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+
+.shape2:hover {
+  color: purple;
+
+}
+
+
+.shape:hover {
+  font-size: 100px;
+  color: purple;
+  background-color: rgb(113, 109, 109);
+  padding: 40px;
+  opacity: 0.6;
+
+
+}
+
+.ideal {
+  color: rgb(250, 246, 250) !important;
+  transition: 0.9s;
+}
+
+.ideal :hover {
+  color: goldenrod;
+}
+
+
+
+
+/* media qurey */
+@media only screen and (max-width: 500px) {
+  .topheading {
+    display: none;
+  }
+
+  .span2 {
+    font-size: 25px;
+  }
+
+  .bodyhead {
+    font-size: 20px;
+  }
+
+  .trainer {
+    color: purple;
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+
+  .hspan {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+
+
+
+}
+
+
+element.style {}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: calc(4% + 1px);
+}
+
+.react-multiple-carousel__arrow {
+  top: 143px !important;
+ 
+}
+
+react-multiple-carousel__arrow::before {
+  top: 0px !important;
+}
+
+
+.btn11{
+  padding: 5px 50px;
+color: white;
+border-radius: 20px;
+text-transform: capitalize;
+background: none;
+border: 2px goldenrod solid;
+position: absolute;
+font-size: 25px;
+top: 90px; 
+transition: 0.8s;
+background-color: goldenrod;
+box-shadow: 0px -1px 26px 3px rgba(228, 195, 6, 0.75);
+}
+
+.new{
+  font-size: 60px;
+  color: gray;
+  text-transform: capitalize;
+}
+
+.btn-style{
+  padding: 10px 70px;
+  border: 2px solid gray;
+  font-size: 22px;
+  color: white;
+  border-radius: 15px;
+  text-transform: capitalize;
+ background-color: rgb(50, 47, 47);
+  position: absolute;
+  top: 90px; 
+  transition: 0.8s;
+  box-shadow: 0px -1px 26px 3px rgba(252, 252, 248, 0.75);
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+  .shape{
+               
+
+    padding: 30px;
+
+  }
+
+  .shape2{
+    font-size: 20px;
+  }
+ 
+
+}
+
+
+.btn-rel{
+  position: relative;
+}
+
+.text-size{
+  font-size: 70px;
+  color: goldenrod;
+  text-transform: capitalize;
+}
